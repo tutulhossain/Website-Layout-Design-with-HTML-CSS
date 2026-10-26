@@ -1,0 +1,284 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/* Start Header CSS*/
+#header{
+	width: 1380px;
+	height: 60px;
+	background: black;
+	margin: 0 auto;
+}
+
+/* End Header CSS*/
+
+/* Start logo CSS*/
+.logo{
+	width: 25%;
+	height: 100%;
+	
+	float: left;
+}
+
+.logo img{
+	padding: 5px;
+}
+/* End logo CSS*/
+
+/* Start menu CSS*/
+.main-menu{
+	width: 75%;
+	height: 100%;
+	
+	float: left;
+}
+/* End menu CSS*/
+
+/* start header CSS*/
+.menu{
+	list-style-type: none;
+	width: 500px;
+
+	min-height: 60px;
+	margin: 0 auto;
+	margin-left: 577px;
+}
+.menu li{
+	float: left;
+}
+.menu li:hover{
+	background: #10D6F9;
+}
+.menu li a{
+	color: white;
+	text-decoration: none;
+	padding-top: 21px;
+	padding-bottom: 21px;
+	padding-left: 20px;
+	padding-right: 20px;
+	display: block;
+}
+/* End header CSS*/
+
+/* Start Hero CSS*/
+#hero{
+	width: 1380px;
+	height: 500px;
+	background-image: url(../image/hero.jpg);
+	margin: 0 auto;
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#hero h1{
+	text-align: center;
+	padding-top: 80px;
+	color: white;
+	font-size: 50px;
+}
+#hero p{
+	text-align: center;
+	padding: 20px 200px;
+	color: white;
+	font-size: 30px;
+}
+
+#hero button{
+	margin-left: 550px;
+	padding: 10px 30px;
+	color: white;
+	font-size: 28px;
+	background: #000000;
+	border-radius: 35px;
+}
+
+#hero button:hover{
+	color: white;
+	font-size: 28px;
+	background: #10d6f9;
+}
+
+/* End hero CSS*/
+
+/* Start about CSS*/
+#about{
+	width: 1380px;
+	height: 500px;
+
+	margin: 0 auto;
+}
+.about-image{
+	width: 40%;	
+	height: 100%;
+
+	float: left;
+}
+.about-image img{
+	width: 100%;
+	margin: 50px 0 0 0;
+	border: 1px solid black;
+	border-radius: 50px;
+}
+.about-content{
+	width: 60%;
+	height: 100%;
+	float: left;
+}
+.about-content h1{
+	margin: 50px 0 10px 30px;
+}
+
+.about-content p{
+	margin: 10px 10px 10px 30px;
+	font-size: 20px;
+	text-align: justify;
+}
+
+.about-content button{
+	margin: 10px 0 10px 30px;
+	font-size: 20px;
+	padding: 10px 10px;
+	border-radius: 50px;
+	border: 3px solid #10d6f9;
+	background: black;
+	color: white;
+}
+/* End about CSS*/
+
+/* Start Service CSS*/
+#service{
+	width: 1380px;
+	height: 500px;
+	margin: 0 auto;
+	border: 10px solid black;
+	border-radius: 50px;
+}
+.service-01{
+	width: 30%;
+	height: 80%;
+	margin: 45px 20px;
+	float: left;
+	border: 3px solid #10d6f9;
+}
+.service-01 img{
+	width: 30%;
+	height: 30%;
+	margin-left: 160px;
+	margin-top: 20px;
+}
+.service-01 h2{
+	font-size: 30px;
+	margin-left: 5px;
+	margin-top: 20px;
+	text-align: center;
+}
+.service-01 p{
+	font-size: 22px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 20px;
+	text-align: center;
+}
+.service-01 button{
+	font-size: 25px;
+	margin: 20px 0 10px 145px;
+	padding: 10px 10px;
+	border-radius: 50px;
+	border: 3px solid	#10d6f9;
+	background: black;
+	color: white;
+}
+.service-02{
+	width: 30%;
+	height: 80%;
+	margin: 45px 20px;
+	float: left;
+	border: 3px solid #10d6f9;
+}
+.service-02 img{
+	width: 30%;
+	height: 30%;
+	margin-left: 160px;
+	margin-top: 20px;
+}
+.service-02 h2{
+	font-size: 30px;
+	margin-left: 5px;
+	margin-top: 20px;
+	text-align: center;
+}
+.service-02 p{
+	font-size: 22px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 20px;
+	text-align: center;
+}
+.service-02 button{
+	font-size: 25px;
+	margin: 20px 0 10px 145px;
+	padding: 10px 10px;
+	border-radius: 50px;
+	border: 3px solid	#10d6f9;
+	background: black;
+	color: white;
+}
+.service-03{
+	width: 30%;
+	height: 80%;
+	margin: 45px 20px;
+	float: left;
+	border: 3px solid #10d6f9;
+}
+.service-03 img{
+	width: 30%;
+	height: 30%;
+	margin-left: 160px;
+	margin-top: 20px;
+}
+.service-03 h2{
+	font-size: 30px;
+	margin-left: 5px;
+	margin-top: 20px;
+	text-align: center;
+}
+.service-03 p{
+	font-size: 22px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 20px;
+	text-align: center;
+}
+.service-03 button{
+	font-size: 25px;
+	margin: 20px 0 10px 145px;
+	padding: 10px 10px;
+	border-radius: 50px;
+	border: 3px solid	#10d6f9;
+	background: black;
+	color: white;
+}
+/* End Service CSS*/
+
+/* Start contact CSS*/
+#contact{
+	width: 1380px;
+	height: 100%;
+	margin: 45px 20px;
+	float: left;
+	border: 3px solid #10d6f9;
+}
+#contact input{
+	height: 35px;
+}
+
+#contact button{
+	font-size: 25px;
+	padding: 10px 10px;
+	border-radius: 50px;
+	border: 3px solid	#10d6f9;
+	background: black;
+	color: white;
+}
+/* End contact CSS*/
